@@ -21,14 +21,14 @@ const CATEGORIES_DUMMY_DATA = const [
     title: 'Japanese Food',
     description: '',
     image:
-        'https://img2.pngdownload.id/20190703/qjw/kisspng-japan-clip-art-vector-graphics-shinto-shrine-porta-5d1cadc157fe66.1597566815621605773604.jpg',
+        'https://png.pngtree.com/png-clipart/20200224/original/pngtree-crossed-flags-of-japan-icon-cartoon-style-png-image_5223380.jpg',
   ),
   Category(
     id: 'P4',
     title: 'Italian Food',
     description: '',
     image:
-        'https://w7.pngwing.com/pngs/32/886/png-transparent-cough-allergy-common-cold-allergy-miscellaneous-child-face.png',
+        'https://png.pngtree.com/png-clipart/20191123/original/pngtree-italy-crossed-flags-vector-icon-png-image_5198334.jpg',
   ),
   Category(
     id: 'P5',
@@ -55,7 +55,7 @@ const OBAT_DUMMY_DATA = const [
       author: 'Nuge',
       category: 'P1',
       image:
-          "https://e7.pngegg.com/pngimages/661/543/png-clipart-stethoscope-cartoon-stethoscope-medical.png",
+          "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/07/10/2140787252.jpg",
       price: 300000),
   Food(
       id: 'A2',
@@ -65,7 +65,7 @@ const OBAT_DUMMY_DATA = const [
       author: 'Riski',
       category: 'P1',
       image:
-          "https://png.pngtree.com/png-clipart/20211106/ourmid/pngtree-simpel-tensi-manual-dengan-kompas-png-image_4023944.png",
+          "https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/02/13/2677260545.jpg",
       price: 500000),
   Food(
       id: 'A3',
@@ -74,8 +74,7 @@ const OBAT_DUMMY_DATA = const [
           'Jajangmyeon adalah jenis masakan Korea yaitu mi saus pasta kacang kedelai hitam. Jajangmyeon dipengaruhi kuliner Tionghoa, dan orang Tiongkok biasa menyebutnya Zhajiangmian. Jajang artinya saus goreng, dan myeon artinya mi.',
       author: 'Riski',
       category: 'P2',
-      image:
-          "https://www.panentour.com/wp-content/uploads/2019/03/3D-TORAJA-MAKASSAR-PARE-PARE-2-1024x578.jpg",
+      image: "https://static.sehatq.com/content/review/image/1648435618.jpeg",
       price: 15000),
   Food(
       id: 'A4',
@@ -85,6 +84,6 @@ const OBAT_DUMMY_DATA = const [
       author: 'Nuge',
       category: 'P2',
       image:
-          "https://images.k24klik.com/product/large/apotek_online_k24klik_20211223092009359225_AMOXICILLIN-KF-500MG-TAB-100S-removebg-preview.png",
+          "https://www.thespruceeats.com/thmb/r2bG-lIQYgLYecbnwOW36hiLuk8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-korean-bibimbap-recipe-2118765-hero-01-091c0e0f8c20426d8f70747955efa61d.jpg",
       price: 60000 - 80000),
 ];

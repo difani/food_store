@@ -197,4 +197,118 @@ Cara Membuat:
     image:
         "https://www.thespruceeats.com/thmb/r2bG-lIQYgLYecbnwOW36hiLuk8=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/classic-korean-bibimbap-recipe-2118765-hero-01-091c0e0f8c20426d8f70747955efa61d.jpg",
   ),
+  Food(
+    id: 'A5',
+    name: 'Rawon Daging Sapi',
+    description: '''
+Resep Rawon Daging Sapi
+Bahan:
+- 500 gr daging sandung lamur
+- 2 batang serai, memarkan
+- 5 lembar daun jeruk
+- 1 ruas lengkuas, memarkan
+- air secukupnya
+
+Bumbu halus:
+- 6 siung bawang merah
+- 3 siung bawang putih
+- 7 buah kluwak, keruk isinya
+- 1 sdt ketumbar
+- 3 butir kemiri, sangrai
+- 1 ruas kunyit, bakar
+- garam secukupnya
+- gula secukupnya
+- kaldu bubuk secukupnya
+
+Pelengkap:
+- kecambah
+- telur asin
+- sambel terasi
+
+Cara membuat:
+1. Tumis bumbu halus, lengkuas, serai dan daun jeruk hingga harum dan matang.
+2. Kemudian masukkan daging, aduk rata dan tambahkan tambahkan air.
+3. Bumbui dengan garam, gula, dan kaldu bubuk. Aduk-aduk, masak hingga matang dan daging empuk.
+4. Tes rasa dan matikan kompor. Sajikan rawon hangat dengan taburan kecambah, telur asin dan sambal.
+ ''',
+    author: 'Nuge',
+    category: 'P1',
+    image:
+        "https://th.bing.com/th/id/OIP.jTGfrqgNGmTIfS4HpTUH-gHaEE?pid=ImgDet&rs=1",
+  ),
+  Food(
+    id: 'A5',
+    name: 'Seblak ala Rafael',
+    description: '''
+Reseb Seblak ala Rafael
+Bahan: 
+  3 ruas kencur, potong-potong
+  4 siung bawang putih, potong-potong
+  3 batang daun bawang, iris-iris
+  3 buah cabai rawit merah
+  14 buah cabai hijau
+  kerupuk mentah secukupnya
+  garam secukupnya
+  gula secukupnya
+  micin secukupnya
+  penyedap rasa ayam secukupnya
+  minyak sayur secukupnya
+
+Cara Membuat
+1. Rebus kerupuk hingga teksturnya lunak. Angkat dan tisikan.
+2. Haluskan potongan bawang putih, kencur, dan cabai dengan cobek.
+3. Tambahkan garam, gula, penyedap rasa, dan micin.
+4. Campurkan daun bawang dengan bumbu halus, ratakan.
+5. Panaskan minyak sayur hingga benar-benar panas. Kemudian, tuangkan ke dalam cobek dan aduk merata.
+6. Masukkan kerupuk dan campurkan.
+7. Seblak ala Rafael Tan SMASH siap disantap.
+
+ ''',
+    author: 'Nuge',
+    category: 'P1',
+    image:
+        "https://th.bing.com/th/id/OIP.H45Y2aogHhXveJLTg5g16wHaEK?pid=ImgDet&rs=1",
+  ),
+  Food(
+    id: 'A6',
+    name: 'Dumpling Ayam',
+    description: '''
+Reseb Dumpling Ayam
+Bahan: 
+  Daging ayam - 350 gram
+  Tepung tapioka - 1 sdm
+  Daun bawang, iris halus - 2 tangkai
+  Kulit pangsit bulat - 25 lembar
+
+BUMBU:
+  Bawang putih, haluskan - 2 siung
+  Kecap asin - 1 sdm
+  Saus tiram - 1 sdm
+  Minyak wijen - 1 sdt
+  Garam - 1 sdt
+  Gula - 1/2 sdt
+  Merica bubuk - 1/4 sdt
+
+SAUS:
+  Kecap asin - 5 sdm
+  Gula pasir - 2 sdm
+  Cuka masak - 1 sdm
+  Cabai rawit, iris kecil - 5 buah
+
+Cara |Membuat:
+1. Campur semua bahan saus: Kecap asin, gula pasir, cuka masak, dan cabai rawit. Aduk rata sampai gula larut. Sisihkan.
+2. Haluskan daging ayam dengan food processor, tambahkan tepung tapioka, irisan daun bawang dan bumbu-bumbu (bawang putih, kecap asin, saus tiram, minyak wijen, garam, gula dan merica bubuk). Blender sampai tercampur rata.
+3. Ambil satu lembar kulit pangsit, isi dengan 1 sendok teh bahan isian. Oles dengan air bagian tepi kulit kemudian lipat jadi 2 membentuk 1/2 lingkaran. Bentuk lipit pada bagian tepi kulit dumpling rapatkan sambil sedikit ditekan. Lakukan hingga semua adonan habis.
+4. Kukus dumpling dengan api sedang sampai matang selama 20 menit.
+5. Siap disajikan hangat dengan saus.
+6. Jika hanya menemukan kulit pangsit persegi, maka lipat menjadi segitiga. Atau, potong menjadi kulit pangsit bulat dengan pemotong kue logam.
+7. Jika ingin menguji apakah pangsit Anda sudah matang, tusuk dengan tusuk gigi. Jika hasilnya bersih, pangsit Anda siap disantap!
+
+
+ ''',
+    author: 'Nuge',
+    category: 'P6',
+    image:
+        "https://www.outlookindia.com/outlooktraveller/public/uploads/filemanager/images/Dumplings-are-essential-components-of-meals-during-the-Chinese-New-Year.jpg",
+  ),
 ];

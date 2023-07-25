@@ -14,7 +14,7 @@ class Kategori extends StatelessWidget {
             .toList(),
         gridDelegate: SliverGridDelegateWithMaxCrossAxisExtent(
           maxCrossAxisExtent: 200,
-          childAspectRatio: 1.5,
+          childAspectRatio: 1.3,
           crossAxisSpacing: 20,
           mainAxisSpacing: 20,
         ),

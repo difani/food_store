@@ -11,9 +11,6 @@ class DepanPage extends StatefulWidget {
 class _DepanPageState extends State<DepanPage> {
   @override
   Widget build(BuildContext context) {
-    final id = ModalRoute.of(context)?.settings.arguments as String;
-    final selectedObat = OBAT_DUMMY_DATA.firstWhere((obat) => obat.id == id);
-
     return Scaffold(
       body: SafeArea(
         child: ListView(
@@ -21,8 +18,8 @@ class _DepanPageState extends State<DepanPage> {
             Padding(
               padding: EdgeInsets.all(20),
               child: Text(
-                "Today's Resep",
-                style: TextStyle(fontSize: 35, fontWeight: FontWeight.w400),
+                "Masakan Indonesia",
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
               ),
             ),
             Container(
@@ -42,7 +39,7 @@ class _DepanPageState extends State<DepanPage> {
                       color: Colors.black12,
                       image: DecorationImage(
                         image: NetworkImage(
-                          "https://images.unsplash.com/photo-1607355739828-0bf365440db5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1444&q=80",
+                          "https://assets.pikiran-rakyat.com/crop/0x0:0x0/x/photo/2021/07/10/2140787252.jpg",
                         ),
                         fit: BoxFit.cover,
                       ),
@@ -58,12 +55,11 @@ class _DepanPageState extends State<DepanPage> {
                       borderRadius: BorderRadius.circular(15),
                       image: DecorationImage(
                         image: NetworkImage(
-                          "https://images.pexels.com/photos/2583852/pexels-photo-2583852.jpeg?auto=compress&cs=tinysrgb&dpr=3&h=750&w=1260",
+                          "https://assets.ayobandung.com/crop/0x0:0x0/750x500/webp/photo/2023/02/13/2677260545.jpg",
                         ),
                         fit: BoxFit.cover,
                       ),
                     ),
-                    child: Text(selectedObat.description),
                   ),
                   Container(
                     margin: EdgeInsets.only(
@@ -75,7 +71,7 @@ class _DepanPageState extends State<DepanPage> {
                       borderRadius: BorderRadius.circular(15),
                       image: DecorationImage(
                         image: NetworkImage(
-                          "https://images.unsplash.com/photo-1584810359583-96fc3448beaa?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1267&q=80",
+                          "https://th.bing.com/th/id/OIP.jTGfrqgNGmTIfS4HpTUH-gHaEE?pid=ImgDet&rs=1",
                         ),
                         fit: BoxFit.cover,
                       ),
@@ -83,7 +79,79 @@ class _DepanPageState extends State<DepanPage> {
                   )
                 ],
               ),
-            )
+            ),
+            Padding(
+              padding: EdgeInsets.all(5),
+              child: Text(
+                "",
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
+              ),
+            ),
+            Padding(
+              padding: EdgeInsets.all(20),
+              child: Text(
+                "Masakan Manca Negara",
+                style: TextStyle(fontSize: 30, fontWeight: FontWeight.w400),
+              ),
+            ),
+            Container(
+              height: 200,
+              child: ListView(
+                physics: BouncingScrollPhysics(),
+                scrollDirection: Axis.horizontal,
+                children: [
+                  Container(
+                    margin: EdgeInsets.only(
+                      left: 20,
+                    ),
+                    width: 300,
+                    height: 200,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      color: Colors.black12,
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://cdn-brilio-net.akamaized.net/news/2020/09/08/191564/1305341-1000xauto-resep-ramen.jpg",
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(
+                      left: 20,
+                    ),
+                    width: 300,
+                    height: 200,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://th.bing.com/th/id/OIP.HAu8l9ToJmaNvUVYqmDe2AHaE8?pid=ImgDet&rs=1",
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  ),
+                  Container(
+                    margin: EdgeInsets.only(
+                      left: 20,
+                    ),
+                    width: 300,
+                    height: 200,
+                    decoration: BoxDecoration(
+                      borderRadius: BorderRadius.circular(15),
+                      image: DecorationImage(
+                        image: NetworkImage(
+                          "https://static.sehatq.com/content/review/image/1648435618.jpeg",
+                        ),
+                        fit: BoxFit.cover,
+                      ),
+                    ),
+                  )
+                ],
+              ),
+            ),
           ],
         ),
       ),
